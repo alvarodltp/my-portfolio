@@ -1,11 +1,11 @@
 import Home from './pages/Home';
-import Navbar from './components/Navbar';
+import NavBar from './components/NavBar';
 import { DarkModeProvider } from './hooks/DarkModeContext';
 
 export default function App() {
   return (
     <DarkModeProvider>
-      <Navbar />
+      <NavBar />
       <Home />
     </DarkModeProvider>
   );
